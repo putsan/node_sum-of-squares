@@ -1,5 +1,5 @@
 'use strict';
 
-export function square(x) {
-    return x * x;
-}
+const square = (x) => x * x;
+
+module.exports.square = square;
